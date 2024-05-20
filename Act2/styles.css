@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end; /* Align the navigation to the right */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration:None;
+    padding: 10px;
+}
+nav ul li a:hover {
+    color: #ff6600;
+    text-decoration:None;
+    padding: 10px;
+}
+
+main {
+    background-color: silver;
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.scrollable-section {
+    border: 2px solid #333; /* Add border */
+    padding: 20px;
+    max-width: 700px; /* Maximum width for the section */
+    margin: 20px auto; /* Center the section */
+    background-color: beige; /* Optional: Add background color for better visibility */
+    height: 400px; /* Fixed height */
+    overflow: auto; /* Make the section scrollable */
+}
+.intro-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Align items to the start and end of the container */
+    align-items: flex-start;
+}
+.text {
+    border: 0;
+    padding: 20px;
+    max-width: 400px;
+    flex: 1;
+    text-align: justify; /* Justify the text */
+}
+.photo {
+    padding-right: 55px;
+    padding-top: 35px;
+    margin-left: 20px; /* Add some space between the text and the image */
+}
+
+.profile-photo {
+    display: block;
+    margin: 0 auto 20px; /* Center the image and add some margin at the bottom */
+    width: 200px; /* Set the width of the image */
+    height: 300px; /* Set the height of the image */
+    border-radius: 15%; /*Make the image circular */
+    object-fit: cover ; /* Ensure the image covers the entire circle */
+}
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Align items to the start and end of the container */
+    align-items: flex-start;
+}
+
+.QA-skills {
+    border: 0;
+    padding: 20px;
+    max-width: 400px;
+    flex: 1;
+    margin-bottom: 40px; /* Add space between positions */
+}
+
+
+.it-support-skills {
+    border: 0;
+    padding: 20px;
+    max-width: 400px;
+    flex: 1;
+    margin-bottom: 40px; /* Add space between positions */
+}
